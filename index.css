@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color: rgb(245, 235, 220);
+    position: fixed;
+    width: 100%;
+}
+.header{
+    display: flex;
+    padding-left: 50;
+    padding-right: 50;
+    padding-top: 20;
+    top: 0;
+}
+.header div{
+    flex: 40;
+}
+.mid img{
+    width: 130;
+}
+.mid{
+    display: contents;
+}
+.center{
+    display: contents;
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    align-items: start;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 9;
+}
+.left a{
+margin-left: 20;
+color: rgb(80, 35, 20);
+text-transform: capitalize;
+font-size: 15px;
+text-decoration: none;
+position: relative;
+}
+.left a::after{
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: orange;
+    transition: 0.2s ease-out;
+}
+.left a:hover::after{
+    width: 100%;
+}
+.left i{
+    font-size: 40;
+    margin-right: 25;
+}
+.right{
+    display: flex;
+    align-items: start;
+    font-size: 23;
+    padding-top: 7;
+}
+.right i{
+  margin-right: 15;
+  color: rgb(80, 35, 20);
+}
+.link{
+    background-color: rgb(214, 35, 0);
+    color: white;
+     font-size: medium;
+     padding: 15;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: rgb(214, 35, 0);
+    transition: 0.25s;
+    text-decoration: none;
+}
+.link:hover{
+    transform: scale(0.9);
+}
+.link i{
+    color: white;
+}
+.end{
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   margin-right: 80;
+}
+.container1{
+    height: 87.4%;
+    background: url(img\ menu.webp);
+    background-position: center;
+    background-size: cover;
+   display: flex;
+   align-items: end;
+   justify-content: center;
+}
+.button{
+padding: 15;
+padding-bottom: 20;
+transition: 0.25s;
+}
+.button .link1{
+    background-color: rgb(214, 35, 0);
+    color: white;
+    width: 140;
+    border-radius: 10px;
+    padding: 10;
+    padding-left: 15;
+    padding-right: 15;
+    border: rgb(214, 35, 0);
+    font-weight: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+ .button:hover{
+    transform: scale(0.96);
+}
+.container2{
+    background-color: rgb(255, 253, 253);
+    height: 60%;
+}
+.titles h1{
+    text-align: center;
+    color: rgb(80, 35, 20);
+    font-size: 40;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0.5;
+}
+.titles h3{
+    text-align: center;
+    font-family: "Roboto Condensed";
+    color: rgb(80, 35, 20);
+}
+.titles{
+    padding-top: 40;
+}
+.cards{
+display: flex;
+justify-content: center;
+padding-top: 15;
+height: 240;
+}
+.first{
+    margin-right: 20;
+    transition: 0.30s;
+}
+.first:hover{
+    transform: scale(0.9);
+}
+.first img{
+    width: 380;
+    border-radius: 20px;
+}
+.first h1{
+    color: rgb(80, 35, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20;
+}
+.container3{
+    margin-top: 50;
+    background: url(https://burgerkingfrance.twic.pics/img/animations/kingdom/9e0b3321-f3a2-4711-9e28-55d15e2de4a3_?twic=v1/contain-max=1536/output=webp);
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.button1 a{
+    color: rgb(80, 35, 20);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(245, 235, 220);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10;
+    padding-left: 15;
+    padding-right: 15;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.25s;
+}
+.button1:hover{
+    transform: scale(0.96);
+}
+.button1{
+    padding: 15;
+    padding-bottom: 30;
+    transition: 0.25s;
+}
+.titles1{
+    text-align: center;
+    padding-top: 15;
+}
+.titles1 h1{
+    color: rgb(80, 35, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.container4{
+    padding: 0 10%;
+    padding-bottom: 20;
+}
+.cards1{
+    display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 15;
+}
+.container4 img{
+    width: 170px;
+}
+.container4 h3{
+    text-align: center;
+    color: rgb(80, 35, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cards1 .box{
+    background-color: #fbf4e9;
+    border-radius: 20px;
+    padding: 10;
+    height: 240;
+    width: 250 ;
+    text-align: center;
+    transition: 0.3s;
+    margin-right: 15;
+}
+.cards1 .box:hover{
+    transform: scale(0.9);
+}
